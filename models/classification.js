@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../connect');
+const sequelize = require('../connections/connect');
 
 class Product extends Model {}
 Product.init(
